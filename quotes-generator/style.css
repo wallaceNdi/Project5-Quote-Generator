@@ -1,0 +1,93 @@
+body{
+    background-color: #071326;
+    font-family: geogia;
+}
+h1{
+    text-align:center;
+    color:#9dbadb;
+    font-weight: 800;
+    font-size: 2.375rem;
+    line-height: 5rem;
+    margin-bottom: 0px;
+}
+#quote_container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1024px;
+    align-content: center;
+    padding: 20px;
+    align-items: center;
+}
+p{
+    font-size: 2.0rem;
+    margin-bottom: 40px;
+    line-height: 3rem;
+    color:#fff;
+}
+.error{
+    color:#ff3800;
+    text-align:center;
+    
+}
+.message{
+    text-align:center;
+    color:#fff;
+}
+.quote{
+    color:azure;
+}
+form{
+    display: flex;
+}
+input[type='text']{
+    padding: 6px;
+    width: 140px;
+    order:0;
+    font-size: .875rem;
+    display: inline-block;
+    color: #666;
+    border-radius: 6px;
+    letter-spacing: .5px;
+    border: none;
+    text-align:center;
+    background-color: #d5e0f2;
+}
+button{
+    margin-left: 20px;
+    margin-right:20px;
+    order:3;
+    min-width: 230px;
+    height: 45px;
+    font-size: .875rem;
+    display: inline-block;
+    color: #161616;
+    background-color: #e1e5ed;
+    text-transform: uppercase;
+    border-radius: 50px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    border: none;
+}
+button:active, input[type='text']:active,
+button:focus, input[type='text']:focus{
+    outline: none;
+    border: none;
+}
+
+label{
+    margin-left:10px;
+    margin-top: 13px;
+    color: #ebeef4;
+    font-size: 1.1rem;
+   } 
+
+select{
+   width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: #d5e0f2;
+}
